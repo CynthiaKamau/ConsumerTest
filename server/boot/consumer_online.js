@@ -93,7 +93,7 @@ module.exports = function (app) {
         
                                 method: "POST",
                         
-                                url: "https://il.mhealthkenya.co.ke/hl7-sync-client",
+                                url: "https://il-test.mhealthkenya.co.ke/hl7-sync-client",
                         
                                 headers: {
                         
@@ -150,7 +150,7 @@ module.exports = function (app) {
         
                                 method: "POST",
                         
-                                url: "https://il.mhealthkenya.co.ke/hl7-sync-appointment",
+                                url: "https://il-test.mhealthkenya.co.ke/hl7-sync-appointment",
                         
                                 headers: {
                         
@@ -209,7 +209,7 @@ module.exports = function (app) {
         
                             method: "POST",
                     
-                            url: "https://il.mhealthkenya.co.ke/hl7-sync-observation",
+                            url: "https://il-test.mhealthkenya.co.ke/hl7-sync-observation",
                     
                             headers: {
                     
@@ -262,7 +262,7 @@ module.exports = function (app) {
         
                 method: "POST",
         
-                url: "https://il.mhealthkenya.co.ke/hl7_message",
+                url: "https://il-test.mhealthkenya.co.ke/hl7_message",
         
                 headers: {
         
@@ -989,7 +989,7 @@ module.exports = function (app) {
     
 	//Tell our app to listen on port 3000
 
-	applctn.listen(1440, function (err) {
+	applctn.listen(6000, function (err) {
 
 		if (err) {
 
@@ -997,9 +997,9 @@ module.exports = function (app) {
 
 		} else {
 
-			console.log("T4A HL7 Consumer Server started on port 1440");
+			console.log("T4A HL7 Consumer Server started on port 6000");
 
-			log.info("T4A HL7 Consumer Server listening on port 1440");
+			log.info("T4A HL7 Consumer Server listening on port 6000");
 
 		}
 

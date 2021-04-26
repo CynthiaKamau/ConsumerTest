@@ -4,7 +4,7 @@ var connection = {
     host: 'localhost',
     user: 'root',
     password: 'admin',
-    port: 3306,
+    port: 3307,
     database: 'ushauri_il'
 };
 const database = connection.database;
